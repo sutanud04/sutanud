@@ -29,7 +29,7 @@ export default function Home() {
                     <button onClick={() => navigate("/about#contact")} className={styles.primaryBtn}>
                         Let's Talk <ArrowRight size={18} />
                     </button>
-                    <a href="/Sutanu_D_Resume.docx" download className={styles.secondaryBtn}>
+                    <a href="Sutanu_D_Resume.docx" download className={styles.secondaryBtn}>
                         Download CV <Download size={18} />
                     </a>
                 </div>
