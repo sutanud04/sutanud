@@ -7,9 +7,9 @@
 
   color-scheme: light dark;
 
-  --primary: #6366f1;
+  --primary: #04053b;
   --primary-rgb: 99, 102, 241;
-  --primary-hover: #4f46e5;
+  --primary-hover: #04053b;
 
   /* Light Theme Defaults */
   --bg-main: #FAFAFA;
@@ -27,8 +27,13 @@
   --bg-main: #09090b;
   --bg-card: #18181b;
   --text-main: #fafafa;
-  --text-muted: #a1a1aa;
+  --text-muted: #ffffff;
   --border: #27272a;
+
+  /* Deep blue reads as near-invisible on a dark background, so the
+     accent color falls back to white in dark mode. */
+  --primary: #fafafa;
+  --primary-hover: #d4d4d8;
 }
 
 html, body {

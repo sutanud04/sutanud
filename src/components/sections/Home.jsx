@@ -60,51 +60,11 @@ export default function Home() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
             >
-                <div className={styles.backgroundText}>Senior Software Engineer</div>
                 <img
                     src={profile}
                     alt="Profile"
                     className={styles.profileImage}
                 />
-
-                {/* Floating Icons roughly matched to design */}
-                <motion.div
-                    animate={{ y: [0, -20, 0] }}
-                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    style={{ position: 'absolute', top: '0%', right: '0%', padding: '1rem', background: 'var(--bg-card)', borderRadius: '50%', boxShadow: 'var(--shadow-md)' }}
-                >
-                    <span style={{ fontWeight: 'bold', color: '#3178c6' }}>AI/ML</span>
-                </motion.div>
-                <motion.div
-                    animate={{ y: [0, 20, 0] }}
-                    transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 }}
-                    style={{ position: 'absolute', bottom: '20%', left: '-5%', padding: '1rem', background: 'var(--bg-card)', borderRadius: '50%', boxShadow: 'var(--shadow-md)' }}
-                >
-                    <span style={{ fontWeight: 'bold', color: '#61dafb' }}>Java</span>
-                </motion.div>
-                <motion.div
-                    animate={{ y: [0, 20, 0] }}
-                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    style={{ position: 'absolute', top: '0%', right: '100%', padding: '1rem', background: 'var(--bg-card)', borderRadius: '50%', boxShadow: 'var(--shadow-md)' }}
-                >
-                    <span style={{ fontWeight: 'bold', color: '#3178c6' }}>Python</span>
-                </motion.div>
-                <motion.div
-                    animate={{ y: [0, 20, 0] }}
-                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    style={{ position: 'absolute', top: '100%', right: '0%', padding: '1rem', background: 'var(--bg-card)', borderRadius: '50%', boxShadow: 'var(--shadow-md)' }}
-                >
-                    <span style={{ fontWeight: 'bold', color: '#3178c6' }}>C#</span>
-                </motion.div>
-
-                <motion.div
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    style={{ position: 'absolute', top: '50%', right: '0%', padding: '1rem', background: 'var(--bg-card)', borderRadius: '50%', boxShadow: 'var(--shadow-md)' }}
-                >
-                    <span style={{ fontWeight: 'bold', color: '#3178c6' }}>ReactJS</span>
-                </motion.div>
-
             </motion.div>
 
         </section>

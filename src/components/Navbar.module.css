@@ -42,3 +42,9 @@
     border-radius: 9999px;
     z-index: -1;
 }
+
+:global(.dark) .activeBackground {
+    /* --primary flips to white in dark mode for text; the active pill
+       stays a solid black so the (white) active link text still reads. */
+    background-color: #000000;
+}

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { ContactForm } from "../ContactForm";
+import { Skills } from "../Skills";
 import styles from "./About.module.css";
 
 export default function About() {
@@ -20,7 +21,7 @@ export default function About() {
             <div className={styles.intro}>
                 <h2 className={styles.heading}>About Me</h2>
                 <p className={styles.bio}>
-                    With 14+ years of experience as a developer, lead, and architect, I bring a wealth of technical expertise, leadership abilities, and architectural acumen to any software development project. I am dedicated to delivering exceptional results, driving innovation, and leveraging my experience to contribute to organizations' success.
+                    Senior software engineer with 15 years of experience building and scaling full-stack, distributed, and enterprise systems across Microsoft, Morgan Stanley, J.P. Morgan, and Credit Suisse. Own end-to-end product features at Microsoft on Dynamics 365, serving 750K monthly active users, and previously led a 12-engineer team through a monolith-to-microservices transformation. Track record of high-impact performance engineering, including a 6-hour batch runtime reduction, 50s to sub-5s API latency, building 2,000 TPS distributed systems, and 45M-record/day data pipelines. Recent work includes architecting RAG-based LLM systems for domain-specific enterprise use cases.
                 </p>
 
                 <div className={styles.stats}>
@@ -38,6 +39,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
+            <Skills />
 
             <div id="contact" className={styles.contactSection}>
                 <div>
