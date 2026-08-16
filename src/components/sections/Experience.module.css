@@ -56,3 +56,17 @@
     color: var(--text-muted);
     line-height: 1.6;
 }
+
+.descriptionList {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.descriptionList li {
+    padding-left: 0.25rem;
+}

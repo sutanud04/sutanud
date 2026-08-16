@@ -22,7 +22,7 @@ export default function Home() {
                     Sutanu <br /> Dutta
                 </h1>
                 <p className={styles.description}>
-                    14 years of software craftmanship, delivering solutions which customers love to use. Extensive experience in building, architecting and shipping solutions at scale.
+                    15 years of software craftmanship, delivering solutions which customers love to use. Extensive experience in building, architecting and shipping solutions at scale.
                 </p>
 
                 <div className={styles.actions}>
